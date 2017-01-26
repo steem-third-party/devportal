@@ -8,13 +8,11 @@ google_analytics_key:
 permalink: pretty
 
 collections:
-  documentation:
-    title: Documentation
+  introduction:
+    title: Introduction
     position: 1
-    pages:
-      permalink: /:page/
-  api:
-    title: APIs
+  pysteem:
+    title: Pysteem
     position: 2
 gems:
   - jekyll-sitemap

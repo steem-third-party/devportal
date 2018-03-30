@@ -3,6 +3,8 @@ layout: null
 sitemap: false
 ---
 
+$baseurl: "{{ site.baseurl }}";
+
 $brand-colour: #4BA2F2;
 
 $nav-header-height: 100px;

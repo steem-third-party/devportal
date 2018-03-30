@@ -18,7 +18,7 @@ exclude: true
 						{% assign sorted_collection_docs = collection.docs | sort: "position" %}
 						{% for doc in sorted_collection_docs %}
 						<li>
-							<a href="{{ doc.id }}">{{ doc.title }}</a>
+							<a href="{{ site.baseurl }}/{{ doc.id }}">{{ doc.title }}</a>
 							<p class="overview">{{ doc.description }}</p>
 						</li>
 						{% endfor %}
